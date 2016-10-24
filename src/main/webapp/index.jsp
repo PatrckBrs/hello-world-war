@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Hello World! - Jenkins Integrations</title>
+<title>Hello World! Continous Integration</title>
 </head>
 <body>
 	<h1>Hello World! - Jenkins Integrations</h1>
@@ -10,4 +10,6 @@
 	<p>
 		You are coming from 
 		<%= request.getRemoteAddr()  %></p>
+	<p>
+		CI -> Github -> Jenkins -> Maven -> Nexus</p>
 </body>
